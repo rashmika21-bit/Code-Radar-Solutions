@@ -7,7 +7,7 @@ int main() {
     } else if(b>a){
         printf("%d\n", b);
     } else{
-        printf("Both are equal\n");
+        printf("0\n");
     }
     return 0;
 }
