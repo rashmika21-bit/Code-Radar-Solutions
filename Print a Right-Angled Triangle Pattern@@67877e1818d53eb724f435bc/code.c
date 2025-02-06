@@ -17,5 +17,5 @@
         int n;
         scanf("%d", &n);
         printTriangle(n);
-        return 1;
+        return 0;
     }
