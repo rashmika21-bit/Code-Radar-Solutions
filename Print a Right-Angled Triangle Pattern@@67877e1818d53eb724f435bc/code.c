@@ -15,7 +15,7 @@
     }
     int main() {
         int n;
-        printf(\n);
         scanf("%d", &n);
+        printTriangle(n);
         return 0;
     }
