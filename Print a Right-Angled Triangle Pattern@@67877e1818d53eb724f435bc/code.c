@@ -2,7 +2,7 @@
 
     void printTriangle(int n) {
         if (n<1 || n> 10) {
-            printf("\n");
+            printf("Output");
             return;
         }
 
