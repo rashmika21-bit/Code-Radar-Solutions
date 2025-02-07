@@ -4,7 +4,7 @@ int main () {
     scanf("%d", &a);
     if (a % 5 == 0) {
         if ( a% 11 == 0) {
-        printf("Divisible %d\n", a);
+        printf("Divisible\n", a);
     } else {
         printf("Not Divisible\n", a);
     }
