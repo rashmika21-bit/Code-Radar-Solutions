@@ -5,6 +5,6 @@ int main () {
     if (age>=18) {
         printf("Eligible\n");
     } else {
-        printf("Not Eigible");
+        printf("Not Eligible");
     }
 }
