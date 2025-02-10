@@ -7,6 +7,10 @@ int main () {
         printf("Vowel\n", ch);
     } else if (isdigit(ch)) {
         printf("Digit\n", ch);
+    } else if (isalpha(ch)) {
+        printf("consonant", ch);
+    } else {
+        printf("Special Character");
     }
     return 0;
 }
