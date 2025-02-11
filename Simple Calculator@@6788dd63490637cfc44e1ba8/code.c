@@ -13,7 +13,7 @@ int main () {
         if (b != 0) {
             printf("%d",a / b);
         } else {
-            printf("Division by zero not possible");
+            printf("Error");
         }
     }else {
         printf("Error");
