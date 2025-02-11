@@ -11,7 +11,7 @@ int main () {
         printf("%d",a * b);
     } else if (operator == '/') {
         if (b != 0) {
-            printf("%d", a, b, a / b);
+            printf("%d",a / b);
         } else {
             printf("Division by zero not possible");
         }
