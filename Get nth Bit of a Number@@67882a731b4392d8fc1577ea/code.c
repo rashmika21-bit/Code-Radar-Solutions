@@ -5,16 +5,13 @@ int getNthBit(int number, int n) {
 }
 
 int main() {
-    int num, n;
+    int number, n;
     
-    printf("Enter a number: ");
-    scanf("%d", &num);
-    
-    printf("Enter the bit position (0-based index): ");
-    scanf("%d", &n);
+    // Read input in a single line
+    scanf("%d %d", &number, &n);
 
-    int bitValue = getNthBit(num, n);
-    printf("The value of bit %d in %d is: %d\n", n, num, bitValue);
+    // Retrieve and print the nth bit
+    printf("%d\n", getNthBit(number, n));
     
     return 0;
 }
