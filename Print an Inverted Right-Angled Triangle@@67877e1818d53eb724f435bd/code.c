@@ -3,12 +3,12 @@
 int main() {
     int N;
 
-    printf("");
+    printf("Enter the number of rows: ");
     scanf("%d", &N);
 
     for (int i = N; i >= 1; i--) {
         for (int j = 1; j <= i; j++) {
-            printf("*");
+            printf("* "); // Space added after the star
         }
         printf("\n");
     }
