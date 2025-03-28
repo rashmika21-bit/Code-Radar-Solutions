@@ -1,17 +1,13 @@
 #include <stdio.h>
 
 int main() {
-    int N;
-
-    printf("");
-    scanf("%d", &N);
-
-    for (int i = N; i >= 1; i--) {
-        for (int j = 1; j <= i; j++) {
-            printf("* "); // Space added after the star
+    int n;
+    scanf("%d", &n);
+    for(i=1; i<=n; i++){
+        for(j=1; j<=n+1-i; j++){
+            printf("* ");
         }
         printf("\n");
     }
-
     return 0;
 }
