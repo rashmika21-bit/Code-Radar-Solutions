@@ -1,21 +1,12 @@
-#include <stdio.h>
-
-    void printTriangle(int n) {
-        if (n<1 || n> 10) {
-            printf("Output\n");
-            return;
+#include<stdio.h>
+int main () {
+    int n;
+    scanf("%d", &n);
+    for(i=1; i<=n; i++){
+        for()j=1; j<=i; j++{
+            printf("* ");
         }
-
-        for (int i = 1; i<=n; i++) {
-            for ( int  j = 1; j <= i; j++) {
-                printf("* ");
-            }
-            printf("\n");
-        }
+        printf("\n");
     }
-    int main() {
-        int n;
-        scanf("%d", &n);
-        printTriangle(n);
-        return 0;
-    }
+    return0;
+}
