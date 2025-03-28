@@ -9,7 +9,6 @@ int main() {
             printf("%d ", a);
             a++;
         }
-        a++;
         printf("\n");
     }
     return 0;
