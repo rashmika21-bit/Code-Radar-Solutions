@@ -9,14 +9,12 @@ void reverse(int arr[], int si, int ei){
 }
 int main(){
     int n;
-    printf("Enter no of n: ");
     scanf("%d", &n);
     int arr[n];
     for(int i=0;i<=n-1;i++){
         scanf("%d", &arr[i]);
     }
     int k;
-    printf("Enter value of k: ");
     scanf("%d", &k);
     //steps
     k = k%n;
