@@ -27,7 +27,7 @@ int main(){
     for(int i = 0; i<n; i++){
         scanf("%d", &arr[i]);
     }
-    printf("Enter number of rotation: ");
+    printf("");
     scanf("%d", &k);
 
     rotateRight(arr, n, k);
